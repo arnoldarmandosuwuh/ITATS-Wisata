@@ -24,7 +24,7 @@ export default (MainScreenNavigator = TabNavigator(
               onPress={() => props.navigation.navigate("Home")}
               >
             <Icon name="home" />
-            <Text>Home</Text>
+            <Text>Halaman Utama</Text>
           </Button>
           <Button vertical active={props.navigationState.index === 1}
               onPress={() => props.navigation.navigate("Add")}>
